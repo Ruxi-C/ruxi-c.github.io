@@ -7,7 +7,7 @@ body{
     background: rgb(44, 141, 232);
     position: fixed;
     display: flex;
-    width: 98.1vw;
+    width: 98vw;
     justify-content: space-around;
     max-height: fit-content;
     padding-left: 0;
@@ -546,3 +546,4 @@ footer{
     }
 
 }
+
