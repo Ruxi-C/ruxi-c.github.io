@@ -62,3 +62,9 @@ function mesaj(){
     window.alert("Nu ai acces la aceste informații!");
 }
 
+function ascunde(){
+    if(window.innerWidth<600){
+        let meniu = document.getElementById('bara');
+        meniu.classList.remove('afis');
+}
+}
