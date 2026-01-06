@@ -1,4 +1,4 @@
-let i=0, k, croc=0;
+let i=0, k;
 const proiecte=["matENro - Platformă online de pregătire pentru Evaluarea Națională", "Baza de date a platformei matENro", "Joc în Java"];
 const sursePoze=["../index 1 M.png", "../BazadeDate.png", "../joc.png"];
 const idPuncte=["p1", "p2", "p3"];
@@ -68,3 +68,4 @@ function ascunde(){
         meniu.classList.remove('afis');
 }
 }
+
