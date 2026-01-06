@@ -456,13 +456,12 @@ footer{
     margin-left: 6%;
     width: 30%;
     position: relative;
-    bottom: 12vh; 
+    bottom: 6vh; 
     }
 
     ul{
         flex-direction: column;
         padding-left: 0;
-        gap: 10vh;
     }
 
     .coloana{
