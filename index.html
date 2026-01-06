@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is me!</title>    
+    <script src="https://kit.fontawesome.com/4d7c30b23d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stil.css">
+<script src="functie.js"></script>
+</head>
+<body>
+    <div id="navbar">
+    <div id="containerMobil">
+        <button id="deschideHamburger"> <i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div id="bara">
+        <a href="#hero" class="ancora" onclick="ascunde()">Acasă</a>
+        <a href="#maiJos" class="ancora" onclick="ascunde()">Abilități IT</a>
+        <a href="#item" class="ancora" onclick="ascunde()">Experiență</a>
+        <a href="#proiecte" class="ancora" onclick="ascunde()">Proiecte personale</a>
+    </div>
+    </div>
+    <div id="hero">
+        <div id="containerPrezentare">
+            <div id="header">
+            <i class="fa-solid fa-circle-user colorat"></i>
+            <span class="textHero"><b>Ruxandra</b></span>
+        </div>
+        <div id="prezentare">
+            <div class="lista">
+                <div class=colPrez"><i class="fa-solid fa-laptop-code colorat2"></i></div>
+                <div class="colPrez"><span>Studentă la Cibernetică Economică, ASE</span><span>Pasionată de programare</span></div>
+            </div>
+            <br>
+            <div class="lista">
+                <div class=colPrez"><i class="fa-solid fa-dragon colorat2"></i></div>
+                <div class="colPrez"><span>Atitudine pozitivă</span><span>Aptitudini de comunicare</span><span>Capacitatea de a reține ușor informații noi</span><span>Capacitatea de analiză şi sinteză</span><span>Creativitate și inițiativă</span></div>
+            </div>
+        </div>
+        </div>
+        <div id="maiJos">Mai <a href="#background">jos</a> - mai multe informații despre mine!</div>
+    </div>
+    <div id="background">
+        <div class="container">Abilități IT:</div>
+        <ul id="lista">
+            <div class="coloana"><li>C/C++<img src="ISO_C++_Logo.svg" class="logo"></li>
+            <li>Java<img src="Java_programming_language_logo.svg" class="logo"></li></div>
+            <div class="coloana"><li>HTML<img src="html.png" class="logo"></li>
+            <li>CSS<img src="Official_CSS_Logo.svg.png" class="logo"></li></div>
+            <div class="coloana"><li>JavaScript<img src="JavaScript-Symbol.png" class="logo"></li>
+            <li>SQL<img src="Sql_data_base_with_logo.svg.png" class="logo"></li></div>
+        </ul>
+        <div class="container spatiat" id="item">Experiență:</div>
+        <div id="acordeoane">
+        <button class="acordeon"> Voluntar meditator </button>
+        <div class='panel'> <p>Am o experiență de peste 3 ani ca voluntar meditator la matematică, limba română și limba engleză pentru elevi de gimnaziu din mediul rural, care se pregătesc de Evaluarea Națională de la clasa a VIII-a, dorindu-și rezultate cât mai bune, dar neavând posibilități pentru cursuri particulare. </p>
+        </div>
+        <button class='acordeon'> Trainer dezbateri </button>
+    <div class='panel'> <p>După 4 ani ca membru în clubul de dezbateri al liceului, acum, ca trainer, doresc să ajut liceenii să-și formeze abilități de argumentare, gândire critică, lucru în echipă și exprimare persuasivă. </p></div>
+        <button class='acordeon'> Membru SiSC </button>
+    <div class='panel'> <p>Membru în departamentul IT, divizia Front-End, vreau să contribui la asigurarea unei prezențe online atractive, dar și informative, pentru toate proiectele SiSC și a unei experiențe plăcute a utilizatorilor site-urilor și aplicațiilor noastre. </p>
+        </div>
+        </div>
+    <div id="proiecte">
+        <div id="containerMic">
+            <div id="rand">
+                <i class="fa-solid fa-caret-left fa-2xl sageata" onclick="inapoi()" id="sageataStanga"></i>
+                <div class="container">Proiecte personale</div>
+                <i class="fa-solid fa-caret-right fa-2xl sageata" onclick="inainte()" id="sageataDreapta"></i>
+            </div>
+            <div id="textCareSeSchimba">
+                <div class="containerText"><h4 class="proiect" id="titlu">matENro - Platformă online de pregătire pentru Evaluarea Națională</h4></div>
+                <div id ="coloane">
+                <p class="coloana2" id="mesaj">
+                Pornind de la experiența ca voluntar meditator pentru elevi de gimnaziu din mediul rural, am creat matENro, o platformă online cu teste interactive de pregătire pentru Evaluarea Națională.
+                <br>Aceasta este mai mult decât o culegere sau o simplă platformă de evaluare, având ca scop dezvoltarea competenței utilizatorilor de a aplica diferite concepte studiate în rezolvarea de exerciții și probleme prin înțelegerea pașilor necesari unei soluții.
+                <br>matENro oferă teste interactive de tip quiz, pe modelul subiectelor de examen, adaptate contextului, la matematică (toate tipurile de subiecte) și limba română (itemi obiectivi), astfel încât pregătirea poate deveni ceva plăcut.
+                <br>Funcțiile inovatoare precum Hint (indicii) și modul Pas cu Pas (întrebări ajutătoare la problemele complexe) permit elevilor să se familiarizeze cu pașii necesari pentru rezolvarea unei probleme, pe care devin capabili să-i utilizeze la rândul lor când parcurg subiectele de examen.
+                <br>Totodată, platforma pune la dispoziție rezolvări detaliate ale problemelor din teste, mai ușor de înțeles decât obișnuitele bareme schematice.
+                <br>Am realizat acest site de la zero, aceasta fiind o modalitate de a-mi aplica și dezvolta cunoștințele de HTML, CSS și JavaScript.
+                </p>
+                <div class="coloana2 dreapta">
+                    <img src="../index 1 M.png" width="45%" id="poza">
+                </div>
+                </div>
+                <div id = "containerPuncte">
+                <div id="puncte">
+                <i id="p1" class="fa-solid fa-circle" onclick="atrib0()"></i>
+                <i id="p2" class="fa-regular fa-circle" onclick="atrib1()"></i>
+                <i id="p3" class="fa-regular fa-circle" onclick="atrib2()"></i>
+                </div></div>
+                <div class="containerText"><h4 class="proiect mic" id="link">Link către proiect: <a href="https://matenro.infinityfreeapp.com/" id="aici">aici</a></h4></div>
+            </div>
+        </div>
+    </div>
+    <div class="container"> Contact:</div>
+    <div id="containerButoane">
+    <div id="butoane">
+        <button class="contact" onclick="mesaj()"><i class="fa-solid fa-envelope"></i></button>
+        <button class="contact" onclick="mesaj()"><i class="fa-solid fa-phone"></i></button>
+    </div>
+    </div>
+    </div>
+    <footer>&#169Ruxi C, 2026</footer>
+    <script>
+let x=document.getElementsByClassName("acordeon");
+let j;
+for(j=0; j<x.length; j++) {
+x[j].addEventListener("click", function(){
+let panel=this.nextElementSibling;
+if(panel.style.display==="block"){
+panel.style.display="none";
+this.classList.remove("acordeonActiv");
+}
+else {
+panel.style.display="block";
+this.classList.add("acordeonActiv");
+}
+});
+}
+</script>
+<script src="deschidere.js"></script>
+</body>
+</html>
