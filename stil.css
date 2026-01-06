@@ -27,7 +27,8 @@ body{
 }
 
 .ancora:hover{
-    color:rgb(213, 222, 213);
+    color:yellow;
+    font-weight: 1000;
 }
 
 #hero{
@@ -124,12 +125,12 @@ padding-bottom: 3vh;
 }
 
 .logo{
-    max-width: 2.5rem;
+    max-width: 2.4rem;
 }
 
 li{
     margin-bottom:0.5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -452,15 +453,16 @@ footer{
 
     #maiJos{
     color: rgb(144, 192, 236);
-    margin-left: 10%;
+    margin-left: 6%;
     width: 30%;
     position: relative;
-    top: 0; 
+    bottom: 12vh; 
     }
 
     ul{
         flex-direction: column;
         padding-left: 0;
+        gap: 10vh;
     }
 
     .coloana{
@@ -472,16 +474,20 @@ footer{
 
     li{
     background-color: rgb(144, 192, 236);
-    height: 8vh;
+    height: 6vh;
     padding: 0.8rem;
     width: 34vw;
     color: rgb(44, 141, 232);
     border: 5px solid rgb(44, 141, 232);
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
 }
     .acordeon{
         width: 71%;
+    }
+
+    .spatiat{
+        padding-top: 5vh !important;
     }
 
     #coloane{
